@@ -1,0 +1,40 @@
+.main-seach {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+}
+.cst-icon-div {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+.cst-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cst-icon i {
+    font-size: 1.2rem;
+}
+
+.carousel-item {
+    height: calc(100vh - 160px);
+}
+.card-img-top {
+    height: 350px;
+    object-fit: cover;
+}
+.cst-background {
+    background: #ef3b24;
+}
+
+.cst-icon::before {
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
