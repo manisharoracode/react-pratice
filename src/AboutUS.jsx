@@ -31,9 +31,9 @@ function AboutUs() {
               text ever since the 1500s, when an unknown printer took a galley
               of type and scrambled it to make a type specimen book.
             </p>
-            <ul className="text-center list-style-none">
-              <li><span className="cst-icon"> <i class="bi bi-search"></i></span>lorem 1</li>
-              <li><i class="bi bi-telephone-inbound-fill"></i>lorem 2</li>
+            <ul className="list-style-none">
+              <li><span className="cst-icon"> <i className="bi bi-search"></i></span>lorem 1</li>
+              <li><i className="bi bi-telephone-inbound-fill"></i>lorem 2</li>
               <li>lorem 3</li>
               <li>lorem 4</li>
               <li>lorem 5</li>

@@ -11,7 +11,7 @@ function CstTravelContainer(props) {
         <>
             <Container fluid>
                 <div className="d-flex justify-content-between my-5">
-                    <h3><i class="bi bi-telephone-inbound-fill"></i>Discover your next adventure</h3>
+                    <h3><i className="bi bi-telephone-inbound-fill"></i>Discover your next adventure</h3>
                     <Button type="button" className="btn">Show me more</Button>
                 </div>
                 <Row className="my-5 cardSection">

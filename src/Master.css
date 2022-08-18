@@ -4,17 +4,31 @@
     border-radius: 50%;
     border: none;
 }
+
+.navbar-nav a {
+    padding: 1rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar-nav a:hover {
+    background: #d1d1d1;
+    border-radius: 0.4rem;
+}
+
 .cst-icon-div {
     position: relative;
     width: 50px;
     height: 50px;
 }
+
 .cst-icon {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .cst-icon i {
     font-size: 1.2rem;
 }
@@ -22,10 +36,12 @@
 .carousel-item {
     height: calc(100vh - 160px);
 }
+
 .card-img-top {
     height: 350px;
     object-fit: cover;
 }
+
 .cst-background {
     background: #ef3b24;
 }
@@ -37,4 +53,43 @@
     top: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
+}
+
+.list-style-none li {
+    list-style: none;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: contain;
+}
+
+.desc {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.work-title {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.cst-text-area {
+    width: 100%;
+    border-radius: .4rem;
+}
+
+.cst-background {
+    background: rgb(66, 66, 66);
+}
+
+:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
 }

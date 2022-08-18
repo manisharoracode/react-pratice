@@ -1,23 +1,22 @@
-// import logo from './logo.svg';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import CstCarousel from './CstCarousel';
-import CstNavbar from './CstNavbar';
-import CstTravelContainer from './CstTravelContainer';
-import AboutUs from './AboutUS';
-import ServiceCard from './ServiceCard';
-// import { IconName } from "react-icons/bs";
-import ApiData from './ApiData';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import CstNavbar from "./CstNavbar";
+import HomePage from "./HomePage";
+import AboutUs from "./AboutUs";
+import Service from "./Service";
+import ContactUs from "./ContactUs";
 
 function App() {
   return (
     <>
       <CstNavbar />
-      <CstCarousel />
-      <CstTravelContainer />
-      <AboutUs />
-      <ServiceCard />
-      <ApiData />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/AboutUs" element={<AboutUs />} />
+        <Route path="/Service" element={<Service />} />
+        <Route path="/ContactUs" element={<ContactUs />} />
+      </Routes>
     </>
   );
 }
