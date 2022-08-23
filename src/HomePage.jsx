@@ -7,7 +7,7 @@ import TextManupulation from './TextManupulation';
 import DailyNews from './DailyNews';
 import Details from './Details';
 import ToDoList from './ToDoList';
-import LearnRedux from './LearnRedux';
+import AddBook from './BookComponent/AddBook';
 
 function HomePage() {
   return (
@@ -20,7 +20,7 @@ function HomePage() {
       <DailyNews />
       <Details />
       <ToDoList />
-      <LearnRedux />
+      <AddBook />
     </>
   )
 }

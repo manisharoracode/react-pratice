@@ -10,7 +10,6 @@ const ApiData = () => {
     const [selectedBrandCategories, setSelectedBrandCategories] = useState("");
     useEffect(() => {
         axios.get('https://fakestoreapi.com/products').then((res) => {
-            // console.log(res);
             setData(res.data);
         })
     });
