@@ -6,6 +6,7 @@ import FakeAddress from './MainPage/FakeAddress';
 import TextManupulation from './TextManupulation';
 import DailyNews from './DailyNews';
 import Details from './Details';
+import ToDoList from './MainPage/ToDoList';
 
 function HomePage() {
   return (
@@ -17,6 +18,7 @@ function HomePage() {
       <FakeAddress />
       <DailyNews />
       <Details />
+      <ToDoList />
     </>
   )
 }
