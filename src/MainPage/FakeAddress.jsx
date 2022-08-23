@@ -8,16 +8,7 @@ function FakeAddress() {
 
     const axios = require("axios");
 
-    const options = {
-      method: 'POST',
-    //   url: 'https://fake-custom-random-data.p.rapidapi.com/',
-      headers: {
-        'content-type': 'application/json',
-        'X-RapidAPI-Key': '1ebbd55c82msh69128f7c91831d8p145237jsn8b647a7fa9dd',
-        'X-RapidAPI-Host': 'fake-custom-random-data.p.rapidapi.com'
-      },
-      data: '{"delay":1000,"statusCode":202,"language":"en","data":{"_repeat_":3,"repeated-object":{"product":"type=productName&repeat=2","color":"type=color"}}}'
-    };
+   
     
     axios.request(options).then(function (response) {
         console.log(response.data);
