@@ -93,3 +93,16 @@
 :focus-visible {
     outline: -webkit-focus-ring-color auto 0px;
 }
+
+.cst-background {
+    background: #f0f0f0;
+}
+
+.cst-changeBackground {
+    background: #000;
+    color: #fff;
+}
+
+.cst-background-text {
+    background: #000;
+}

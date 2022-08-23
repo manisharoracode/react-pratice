@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
-// import { Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Nav from 'react-bootstrap/Nav';
-// import image from React;
+
 
 
 const ApiData = () => {
@@ -10,14 +10,15 @@ const ApiData = () => {
     const [selectedBrandCategories, setSelectedBrandCategories] = useState("");
     useEffect(() => {
         axios.get('https://fakestoreapi.com/products').then((res) => {
+            // console.log(res);
             setData(res.data);
         })
     });
-    const filterbyBrand = (filterBrandData) =>{
-        if(!selectedBrandCategories) {
-            return filterBrandData;
-        }
-    }
+    // const filterbyBrand = (filterBrandData) =>{
+    //     if(!selectedBrandCategories) {
+    //         return filterBrandData;
+    //     }
+    // }
 
     // console.log("data->>>>>>>", data);
     return (
